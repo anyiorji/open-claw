@@ -1,5 +1,16 @@
 # 🦞 OpenClaw on Render
 
+---
+
+# **⚠️ ARCHIVED**
+
+**This repository is archived. Please use the official Render deployment instead:**
+
+- **Docs:** [https://render.com/docs/deploy-openclaw](https://render.com/docs/deploy-openclaw)
+- **GitHub:** [https://github.com/render-examples/openclaw-render](https://github.com/render-examples/openclaw-render)
+
+---
+
 Deploy **OpenClaw** on **Render** with a built-in installer and a proxied Control UI (including WebSockets).
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/ojusave/render_clawdbot)
