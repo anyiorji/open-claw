@@ -5,19 +5,15 @@ services:
     plan: free
     region: oregon
     healthCheckPath: /healthz
-    disk:
-      name: data
-      mountPath: /data
-      sizeGB: 10
     envVars:
       - key: PORT
         value: "8080"
       - key: INTERNAL_GATEWAY_PORT
         value: "18789"
       - key: OPENCLAW_STATE_DIR
-        value: /data/.openclaw
+        value: /app/.openclaw
       - key: OPENCLAW_WORKSPACE_DIR
-        value: /data/workspace
+        value: /app/workspace
       - key: RENDER_SETUP_PASSWORD
         sync: false
       - key: RENDER_GATEWAY_TOKEN
