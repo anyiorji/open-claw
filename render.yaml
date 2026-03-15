@@ -2,7 +2,7 @@ services:
   - type: web
     name: render-openclaw
     runtime: docker
-    plan: standard
+    plan: free
     region: oregon
     healthCheckPath: /healthz
     disk:
